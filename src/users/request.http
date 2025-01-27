@@ -1,0 +1,9 @@
+### 회원 가입 
+POST http://localhost:3000/auth/signup
+content-type: application/json
+
+{
+    "email": "qwqweqwe@naver.com",
+    "password":"qqewmkqwe"
+    ,"aaa":"bbb"
+}
