@@ -3,7 +3,25 @@ POST http://localhost:3000/auth/signup
 content-type: application/json
 
 {
-    "email": "qwqweqwe@naver.com",
+    "email": "11111@naver.com",
     "password":"qqewmkqwe"
     ,"aaa":"bbb"
+}
+
+### 세그먼트로 id 로 유저 찾기
+GET http://localhost:3000/auth/4
+
+### 쿼리스트링으로 email 유저 찾기 
+GET http://localhost:3000/auth?emai1l=11111@naver.com
+
+### 삭제 
+DELETE http://localhost:3000/auth/2
+
+### Update 유저 
+PATCH http://localhost:3000/auth/3 
+Content-Type: application/json
+
+
+{
+    "email": "vvvv2221111@net.com"
 }
