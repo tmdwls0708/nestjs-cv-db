@@ -3,9 +3,18 @@ POST http://localhost:3000/auth/signup
 content-type: application/json
 
 {
-    "email": "11111@naver.com",
+    "email": "111112@naver.com",
     "password":"qqewmkqwe"
     ,"aaa":"bbb"
+}
+
+### 로그인 
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+    "email": "111112@naver.com",
+    "password":"qqewmkqwe"
 }
 
 ### 세그먼트로 id 로 유저 찾기
